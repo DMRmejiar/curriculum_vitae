@@ -19,7 +19,7 @@ const Skills = ({ className }) => (
       skills={[
         { name: 'Ética de trabajo', level: 6 },
         { name: 'Trabajo en equipo', level: 6 },
-        { name: 'Metodología ágil', level: 4 },
+        { name: 'Metodología ágil', level: 5 },
         { name: 'Flexibilidad', level: 5 },
         { name: 'Planificación', level: 5 },
       ]}
