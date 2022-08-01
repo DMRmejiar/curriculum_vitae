@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+* {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+ul li::before {
+  content: '\2022';
+  color: #649da4;
+  position: relative;
+  left: -16px;
+  width: 0;
+  display: inline-block;
+}

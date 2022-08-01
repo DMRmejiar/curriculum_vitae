@@ -1,13 +1,22 @@
-import React from 'react';
+import { Academic } from 'components/Academic';
+import { Experience } from 'components/Experience';
+import { Profile } from 'components/Profile';
+import { Projects } from 'components/Projects';
+import { Skills } from 'components/Skills';
+import { Splitter } from 'components/Shared/Splitter';
 
 const Home = () => (
-  <main>
-    <h1 className='text-3xl font-extrabold'>CV Starter Code</h1>
-    <div className='flex flex-col'>
-      <span className='text-indigo-500 text-lg'>With Tailwind...</span>
-      <span className='text-gray-200'>And react router</span>
-    </div>
-  </main>
+  <>
+    <Profile />
+    <Splitter />
+    <Skills />
+    <Splitter />
+    <Academic />
+    <Splitter />
+    <Experience />
+    <Splitter />
+    <Projects />
+  </>
 );
 
 export default Home;
