@@ -1,8 +1,8 @@
 import { Title } from 'components/Shared/Title';
 import { SkillGroup } from 'components/Skills/SkillGroup';
 
-const Skills = () => (
-  <section className='flex flex-col items-stretch gap-6'>
+const Skills = ({ className }) => (
+  <section className={`grid items-stretch gap-6 p-6 ${className}`}>
     <Title title='Habilidades' />
     <SkillGroup
       title='Fuertes'

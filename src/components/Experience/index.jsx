@@ -1,8 +1,8 @@
 import { Title } from 'components/Shared/Title';
 import { ExperienceCard } from 'components/Experience/ExperienceCard';
 
-const Experience = () => (
-  <section className='flex flex-col items-stretch gap-6'>
+const Experience = ({ className }) => (
+  <section className={`grid items-stretch gap-6 p-6 ${className}`}>
     <Title title='Experiencia Laboral' />
     <ExperienceCard
       title='Cubit'

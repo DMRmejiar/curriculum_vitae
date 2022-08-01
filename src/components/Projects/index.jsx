@@ -1,8 +1,8 @@
 import { Title } from 'components/Shared/Title';
 import { ProjectCard } from 'components/Projects/ProjectCard';
 
-const Projects = () => (
-  <section className='flex flex-col items-stretch gap-6'>
+const Projects = ({ className }) => (
+  <section className={`flex flex-col items-stretch gap-6 p-6 ${className}`}>
     <Title title='Proyectos' />
     <ProjectCard
       title='KIPI'
